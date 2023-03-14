@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+  font-family: inherit;
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+}
+
+.container__top {
+  padding: 12px 84px;
+  border-bottom: 1px solid #B2B1B1;
+}
+/* .container__inner{
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 100px 0px;
+} */
+
+.container__bottom {
+  position: relative;
+  height: 90vh;
+}
+
+.container__inner {
+  position: absolute;
+  width: 630px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container__innercontent {
+  text-align: center;
+}
+
+.container__innercontent h3 {
+  margin: 20px 55px 18px;
+  font-weight: 500;
+  font-size: 42px;
+  color: #005fa0;
+}
+
+.container__innercontent p:nth-child(2) {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  color: #dc8400;
+}
+
+.container__innercontent p:nth-child(3) {
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  color: #000000;
+}
+
+.container__innerbutton {
+  text-align: center;
+}
+
+.container__innerbutton button {
+  font-size: 18px;
+  background-color: #005fa0;
+  margin: 24px 170px;
+  padding: 10px 40px;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
